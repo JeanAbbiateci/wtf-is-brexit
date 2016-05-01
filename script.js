@@ -59,10 +59,12 @@ function makeChoice2() {
    newBubble.innerHTML = "I'm a millenial";
    // add it to the page
    messageContainer.appendChild(newBubble);
-   // create the new DOM element
+   window.scrollTo(0, document.body.scrollHeight);
+  
 }
 
 function respondChoice2() {
+	// create the new DOM element
    var newBubble = document.createElement("div");
     // give it a class so it looks like a bubble
     newBubble.classList.add("message","&nbsp;","from")
@@ -70,6 +72,7 @@ function respondChoice2() {
    newBubble.innerHTML = "Millenials are the most pro-EU group in the UK.";
    // add it to the page
    messageContainer.appendChild(newBubble);
+   window.scrollTo(0, document.body.scrollHeight);
 	// create the new DOM element
    var newBubble = document.createElement("div");
     // give it a class so it looks like a bubble
@@ -96,6 +99,7 @@ function makeChoice3() {
    newBubble.innerHTML = "We're pretty great";
    // add it to the page
    messageContainer.appendChild(newBubble);
+   window.scrollTo(0, document.body.scrollHeight);
 }
 
 
@@ -108,6 +112,7 @@ function respondChoice3() {
    newBubble.innerHTML = "You're also the likely like group to vote";
    // add it to the page
    messageContainer.appendChild(newBubble);
+   window.scrollTo(0, document.body.scrollHeight);
 	// create the new DOM element
    var newBubble = document.createElement("div");
     // give it a class so it looks like a bubble
@@ -132,6 +137,7 @@ function makeChoice4() {
    newBubble.innerHTML = "Oh shit. But does that matter?";
    // add it to the page
    messageContainer.appendChild(newBubble);
+   window.scrollTo(0, document.body.scrollHeight);
 
 }
 
@@ -144,6 +150,7 @@ function respondChoice4() {
    newBubble.innerHTML = "Well, it depends. What do you want to know about - culture, immigration, jobs or the economy?";
    // add it to the page
    messageContainer.appendChild(newBubble);
+   window.scrollTo(0, document.body.scrollHeight);
    // create the new DOM element
    var newBubble = document.createElement("div");
     // give it a class so it looks like a bubble
